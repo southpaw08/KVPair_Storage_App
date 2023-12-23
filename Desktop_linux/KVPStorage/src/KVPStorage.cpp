@@ -177,12 +177,12 @@ int main()
     if(ret == 0)
     {
         cout << "************************************************************\n"
-             << "   Clay: Key Value Storage database loaded successfully\n"  
+             << "   Key Value Storage database loaded successfully\n"  
              << "************************************************************"<< endl;
     }
     else
     {
-        cerr << "Clay: Error in loading Key Value Storage database" << endl;
+        cerr << "Error in loading Key Value Storage database" << endl;
     }
     cout << "\nPlease enter a command" << endl;
     while(1)
